@@ -1,11 +1,19 @@
 
+
+/**
+ * Пример
+ * 1) Создание исключений
+ * 2) Работа с checked / unchecked
+ * 3) Множественный перехват
+ * 4) Вызов исключение через промежуточный класс
+ */
 public class Main {
 
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
         Tester tester = new Tester();
-        //TesterNew tester = new TesterNew();
+//        TesterNew tester = new TesterNew();
 
         try {
             tester.checked(1);
